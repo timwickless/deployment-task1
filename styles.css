@@ -1,0 +1,73 @@
+* {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Header styling */
+header {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+  background-color: yellow;
+}
+
+/* Styling for nav and nav links */
+nav {
+  background: black;
+  font-weight: bolder;
+}
+
+nav a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 25px;
+}
+
+/* Styling for general text */
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  padding: 1rem;
+}
+
+img {
+  aspect-ratio: 3 / 2;
+}
+
+/* Stlying of entire product boxes */
+.product-box {
+  background-color: lightgray;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+/* Zoom effects for image hover */
+.zoom:hover {
+  transform: scale(1.5);
+}
+
+.zoom {
+  transition: transform 0.5s;
+}
+
+.container {
+  overflow: hidden;
+}
+
+#user-name-display {
+  background-color: grey;
+  font-weight: bold;
+}
+
+#font-dropdown {
+  text-align: center;
+  padding: 30px;
+}
